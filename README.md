@@ -10,10 +10,15 @@ This is a personalized dev project. However, you may use it whichever way you wa
 ```bash
   1 - git clone https://github.com/otuozeAhmed/real-estate-api
   2 - cd real-estate-api
+  
   # Before the next step, create a file named .env and copy all the content of .env.example to it 
-  # (Note: the values here are all examples just to get you up and running, kindly visit mailtrap.io for your personalized dev mail account. This will enable you to receive a bearer token upon account creation.
+  # (Note: the values here are all examples just to get you up and running,
+  # kindly visit mailtrap.io for your personalized dev mail account. 
+  # This will enable you to receive a bearer token upon account creation.
   # Kindly switch to local console for your email output if you can't set up a maitrap email account)
-  # Using this settings in your development.py file: EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+  # Using this settings in your development.py file: 
+  # EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+  
   3 - sudo make build
 
 
