@@ -5,7 +5,7 @@ This is a personalized dev project. However, you may use it whichever way you wa
 
 ### How to set up...
 
-####### To successfully set up this project ensure you have "Make" (Guide :- https://www.gnu.org/software/make/) and "Docker" (Guide :- https://docs.docker.com/engine/install/) installed in your Mac, Linux environment or WSL2 (Windows users), enter the following commands in your terminal to get started:
+To successfully set up this project ensure you have "Make" (Guide :- https://www.gnu.org/software/make/) and "Docker" (Guide :- https://docs.docker.com/engine/install/) installed in your Mac, Linux environment or WSL2 (Windows users), enter the following commands in your terminal to get started:
 
 ```bash
   1 - git clone https://github.com/otuozeAhmed/real-estate-api
@@ -23,6 +23,7 @@ This is a personalized dev project. However, you may use it whichever way you wa
 
 
   ==> visit http://127.0.0.1/api/v1/docs/ to view your project
+  Also checkout redoc on http://127.0.0.1/api/v1/redoc/
   4 - sudo make superuser (to create a superuser access to admin)
   admin ==> http://127.0.0.1/admin/
   ext - sudo make logs (to view all container logs)
